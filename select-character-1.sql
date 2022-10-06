@@ -65,3 +65,52 @@ FROM
     starwars_character
 WHERE
     0;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    1;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    true;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    false;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    -0.001;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    1 = 1;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    10 < 8;
+
+SELECT
+    *
+FROM
+    starwars_character
+WHERE
+    10 - 8;
